@@ -1,0 +1,45 @@
+#XfcePanelWindow {
+   -XfcePanelWindow-popup-delay: 4;
+   -XfcePanelWindow-popdown-delay: 25;
+}
+
+/* Bitcoin */
+#genmon-10 .genmon_value{
+	/*float:right;*/
+	margin:0;
+	padding:0;
+	/*font-size: 16px;*/
+	padding-left:0.5em;
+	background-image:url('/home/jake/scripts/prices/icons/BTC-16.png'), 
+		url('/home/jake/scripts/prices/icons/LTC-16.png'),
+		url('/home/jake/scripts/prices/icons/XMR-16.png'),
+		url('/home/jake/scripts/prices/icons/ETH-16-dark.png');
+	background-repeat: no-repeat;
+	background-position: 0px 0.3em, 0px 1.5em, 0px 2.6em, 0px 3.8em;
+	background-size:10px 10px;
+}
+
+/* Litecoin */
+#genmon-1 .genmon_value{
+padding-left:1em;
+background-image:url('/home/jake/scripts/prices/icons/LTC-16.png');
+background-repeat: no-repeat;
+background-position:left center;
+}
+
+/* Monero */
+#genmon-2 .genmon_value{
+padding-left:1em;
+background-image:url('/home/jake/scripts/prices/icons/XMR-16.png');
+background-repeat: no-repeat;
+background-position:left center;
+}
+
+/* Ether */
+#genmon-3 .genmon_value{
+padding-left:1em;
+background-image:url('/home/jake/scripts/prices/icons/ETH-16-dark.png');
+background-repeat: no-repeat;
+background-position:left center;
+}
+@import 'colors.css';
