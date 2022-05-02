@@ -1,0 +1,6 @@
+Command=/home/jake/scripts/prices/black-date.sh
+UseLabel=0
+Text=(genmon)
+UpdatePeriod=30000
+Font=Sans 21
+

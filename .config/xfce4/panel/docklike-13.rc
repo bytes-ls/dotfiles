@@ -1,0 +1,7 @@
+[user]
+indicatorStyle=0
+forceIconSize=false
+iconSize=32
+noWindowsListIfSingle=true
+inactiveColor=rgba(191,64,64,0)
+indicatorOrientation=0

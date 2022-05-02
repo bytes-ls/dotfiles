@@ -1,0 +1,6 @@
+Command=/home/jake/scripts/prices/btc-price.sh
+UseLabel=1
+Text=BTC\ 
+UpdatePeriod=30000
+Font=DejaVu Sans Mono Bold 12
+

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="displays" version="1.0">
+  <property name="ActiveProfile" type="string" value="b5aa247fc64fffa8839abdcd7037d51e7d243b02"/>
+  <property name="Default" type="empty">
+    <property name="HDMI-A-0" type="string" value="Sony 65&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="88d91709b8c3f085b1d2014463ea63a213334980"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="120.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="2.000000"/>
+        <property name="Y" type="double" value="2.000000"/>
+      </property>
+    </property>
+    <property name="DisplayPort-1" type="string" value="Sony 65&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="88d91709b8c3f085b1d2014463ea63a213334980"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+    </property>
+    <property name="DP-2" type="string" value="VIZIO, Inc 42&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="bbc79ad2cd7879c1dd698ab32d992dcdc6d3268c"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="1080"/>
+      </property>
+    </property>
+    <property name="HDMI-1" type="string" value="Pioneer Electronic Corporation 50&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="f5487fb8ed0ae1f0c31c976fd558b5f4a44a812e"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DisplayPort-0" type="string" value="Sanyo Electric Co.,Ltd. 65&quot;">
+      <property name="Active" type="bool" value="false"/>
+      <property name="EDID" type="string" value="84181dafee1dec8ff0dd14cce860d585dd3786fd"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DisplayPort-2" type="string" value="Pioneer Electronic Corporation 52&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="7361482a45a7613e1be8774cd0799b7f4bff3ffd"/>
+      <property name="Resolution" type="string" value="640x480"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+  <property name="Fallback" type="empty">
+    <property name="HDMI-A-0" type="string" value="Sony 65&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="88d91709b8c3f085b1d2014463ea63a213334980"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="120.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="2.000000"/>
+        <property name="Y" type="double" value="2.000000"/>
+      </property>
+    </property>
+    <property name="DisplayPort-1" type="string" value="Sony 65&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="88d91709b8c3f085b1d2014463ea63a213334980"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+    </property>
+    <property name="DP-2" type="string" value="VIZIO, Inc 42&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="bbc79ad2cd7879c1dd698ab32d992dcdc6d3268c"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="1080"/>
+      </property>
+    </property>
+    <property name="HDMI-1" type="string" value="Pioneer Electronic Corporation 50&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="f5487fb8ed0ae1f0c31c976fd558b5f4a44a812e"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DisplayPort-0" type="string" value="Sanyo Electric Co.,Ltd. 65&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="84181dafee1dec8ff0dd14cce860d585dd3786fd"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DisplayPort-2" type="string" value="Pioneer Electronic Corporation 52&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="7361482a45a7613e1be8774cd0799b7f4bff3ffd"/>
+      <property name="Resolution" type="string" value="640x480"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+  <property name="Notify" type="bool" value="true"/>
+  <property name="2628c3a89f86ba944f33d26cbe520e442e134c41" type="string" value="2tv">
+    <property name="DisplayPort-1" type="string" value="VIZIO, Inc 42&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="bbc79ad2cd7879c1dd698ab32d992dcdc6d3268c"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="1080"/>
+      </property>
+    </property>
+    <property name="HDMI-A-0" type="string" value="Pioneer Electronic Corporation 50&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="f5487fb8ed0ae1f0c31c976fd558b5f4a44a812e"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+  <property name="AutoEnableProfiles" type="bool" value="true"/>
+  <property name="8e77f49f827b66c39fd886f99e6ef704c1fecc26" type="string" value="ths">
+    <property name="DisplayPort-1" type="string" value="VIZIO, Inc 42&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="bbc79ad2cd7879c1dd698ab32d992dcdc6d3268c"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="1080"/>
+      </property>
+    </property>
+    <property name="HDMI-A-0" type="string" value="Pioneer Electronic Corporation 50&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="56808cd7d9d6d3e388fc43751f7fd003d9d59fe7"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+  <property name="7505d64a54e061b7acd54ccd58b49dc43500b635" type="string" value="default">
+    <property name="DisplayPort-1" type="string" value="Sanyo Electric Co.,Ltd. 65&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="84181dafee1dec8ff0dd14cce860d585dd3786fd"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.000000"/>
+        <property name="Y" type="double" value="1.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="HDMI-A-0" type="string" value="Pioneer Electronic Corporation 42&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="00c7e3aa6d873b15b6b5b41bc1a560861f066d65"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="2.000000"/>
+        <property name="Y" type="double" value="2.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="2160"/>
+      </property>
+    </property>
+  </property>
+  <property name="b5aa247fc64fffa8839abdcd7037d51e7d243b02" type="string" value="1080 120">
+    <property name="HDMI-A-0" type="string" value="Sony 65&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="88d91709b8c3f085b1d2014463ea63a213334980"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="120.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="2.000000"/>
+        <property name="Y" type="double" value="2.000000"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+</channel>

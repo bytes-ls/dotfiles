@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="panels" type="array">
+    <value type="int" value="0"/>
+    <value type="int" value="1"/>
+    <property name="panel-0" type="empty">
+      <property name="position" type="string" value="p=8;x=2400;y=1061"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="8"/>
+        <value type="int" value="13"/>
+        <value type="int" value="7"/>
+        <value type="int" value="3"/>
+        <value type="int" value="1"/>
+        <value type="int" value="6"/>
+        <value type="int" value="9"/>
+        <value type="int" value="2"/>
+        <value type="int" value="14"/>
+      </property>
+      <property name="role" type="string" value="xfce4-panel-12965750720"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="size" type="uint" value="34"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="output-name" type="string" value="HDMI-A-0"/>
+    </property>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=1;x=1875;y=956"/>
+      <property name="size" type="uint" value="89"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="10"/>
+        <value type="int" value="12"/>
+        <value type="int" value="11"/>
+        <value type="int" value="16"/>
+      </property>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="position-locked" type="bool" value="false"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.072800"/>
+        <value type="double" value="0.116619"/>
+        <value type="double" value="0.346667"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="leave-opacity" type="uint" value="54"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="icon-size" type="uint" value="16"/>
+    </property>
+    <property name="dark-mode" type="bool" value="false"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="pnmixer"/>
+        <value type="string" value="manjaro-settings-manager-daemon"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="orage"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="blueman-applet"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="xnoise"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="litecoin-qt"/>
+        <value type="string" value="pcloud"/>
+        <value type="string" value="electron6"/>
+        <value type="string" value="openbazaar"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="bluetooth disabled"/>
+        <value type="string" value="lutris"/>
+        <value type="string" value="solaar"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="svpmanager"/>
+        <value type="string" value="bitcoin-qt"/>
+        <value type="string" value="barrier"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="cura"/>
+        <value type="string" value="vrmonitor"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="kde connect indicator"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="deluge"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="msm notifier"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="clipman"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="guake"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="deluge"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="deluge"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="Cadence"/>
+        <value type="string" value="vrmonitor"/>
+        <value type="string" value="Dogecoin-Qt"/>
+        <value type="string" value="electrum-ltc"/>
+        <value type="string" value="KDE Connect Indicator"/>
+        <value type="string" value="electrum"/>
+        <value type="string" value="Litecoin-Qt"/>
+        <value type="string" value="qasmixer"/>
+        <value type="string" value="cura"/>
+        <value type="string" value="SVPManager"/>
+        <value type="string" value="Bitcoin-Qt"/>
+        <value type="string" value="QuiteRss"/>
+        <value type="string" value="steam"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance1235263;chromium.instance144418;chromium.instance15284;chromium.instance1871984;chromium.instance191981;chromium.instance19913;chromium.instance22260;chromium.instance251220;chromium.instance3663853;chromium.instance382672;chromium.instance42533;chromium.instance44337;chromium.instance45038;chromium.instance7870;chromium.instance89399;chromium.instance92050;firefox.instance100629;firefox.instance1017;firefox.instance102071;firefox.instance1036;firefox.instance10362;firefox.instance1040;firefox.instance1071658;firefox.instance1082;firefox.instance1098;firefox.instance1121;firefox.instance1122691;firefox.instance1137341;firefox.instance1147;firefox.instance1187;firefox.instance1188;firefox.instance1199;firefox.instance1276;firefox.instance128443;firefox.instance12920;firefox.instance1292214;firefox.instance1315;firefox.instance1326;firefox.instance132871;firefox.instance1351;firefox.instance13582;firefox.instance1381;firefox.instance1400;firefox.instance1406;firefox.instance14133;firefox.instance141520;firefox.instance1425057;firefox.instance1461;firefox.instance1490244;firefox.instance1524546;firefox.instance1531329;firefox.instance1542069;firefox.instance15927;firefox.instance160439;firefox.instance1616030;firefox.instance16839;firefox.instance1687538;firefox.instance1699;firefox.instance1709;firefox.instance171335;firefox.instance17424;firefox.instance17498;firefox.instance179170;firefox.instance1800165;firefox.instance1839;firefox.instance18648;firefox.instance1892;firefox.instance18936;firefox.instance1918194;firefox.instance19204;firefox.instance2006;firefox.instance20418;firefox.instance2109;firefox.instance2147234;firefox.instance2161196;firefox.instance2188068;firefox.instance22894;firefox.instance2357;firefox.instance240110;firefox.instance2447331;firefox.instance2473890;firefox.instance247600;firefox.instance2522;firefox.instance2612865;firefox.instance26252;firefox.instance2780;firefox.instance2822446;firefox.instance2908;firefox.instance2970;firefox.instance3058670;firefox.instance311409;firefox.instance315229;firefox.instance317776;firefox.instance32753;firefox.instance3280;firefox.instance3378;firefox.instance3386747;firefox.instance341787;firefox.instance358872;firefox.instance3893628;firefox.instance3897;firefox.instance394027;firefox.instance39433;firefox.instance40500;firefox.instance427899;firefox.instance4447;firefox.instance448949;firefox.instance450694;firefox.instance4671;firefox.instance47207;firefox.instance474477;firefox.instance5048;firefox.instance50943;firefox.instance51019;firefox.instance510937;firefox.instance519196;firefox.instance5209;firefox.instance528094;firefox.instance535750;firefox.instance54124;firefox.instance54829;firefox.instance55098;firefox.instance56758;firefox.instance57639;firefox.instance591085;firefox.instance628193;firefox.instance636646;firefox.instance65622;firefox.instance6563;firefox.instance663224;firefox.instance698;firefox.instance703;firefox.instance7051;firefox.instance70721;firefox.instance7301;firefox.instance744;firefox.instance763;firefox.instance764;firefox.instance767;firefox.instance770791;firefox.instance771;firefox.instance775890;firefox.instance789;firefox.instance790;firefox.instance792;firefox.instance793;firefox.instance796;firefox.instance8130;firefox.instance819;firefox.instance822;firefox.instance834;firefox.instance865;firefox.instance873;firefox.instance888;firefox.instance890;firefox.instance907;firefox.instance917;firefox.instance930499;firefox.instance938;firefox.instance942;firefox.instance94302;firefox.instance953;firefox.instance95652;firefox.instance969;firefox.instance970;firefox.instance981;firefox.instance996;kdeconnect.mpris_005b22c79d1b4c579d7c12b2545a48a5;kdeconnect.mpris_0078fee5ba294a65881bdf0263955bdc;kdeconnect.mpris_0081d46101a44581bcd631c915afd908;kdeconnect.mpris_00a2212a284947f3831db50e36437f27;kdeconnect.mpris_014b482b13c141d7b2c1e83509ab143a;kdeconnect.mpris_017c14d210c54f3ea5f5a4dd96617a3c;kdeconnect.mpris_0198b89cc1854cad8e2b9d5483f5d445;kdeconnect.mpris_025025468d9640a6bb3e251da62a2a5d;kdeconnect.mpris_02feeb6bd96d42ee8943a8113f74e424;kdeconnect.mpris_033a05113ce34df9b49eb6a36c9e4b44;kdeconnect.mpris_03dd1df4fe3341cc87b12bca6a410016;kdeconnect.mpris_04bb1365eec5456db65d0ee9f17247d9;kdeconnect.mpris_04d8d682373f4ab2b682c3dd57e06d9f;kdeconnect.mpris_064ab5de44024c96b3006fc8298a2bf0;kdeconnect.mpris_06993d3cefb14c26940e7a462f38a756;kdeconnect.mpris_08110466d4d44d34a5925e1f03686570;kdeconnect.mpris_0895c651907f4d959bb9abe0e9ec6cbe;kdeconnect.mpris_09061a205312489ea4d3a5629e89bbc5;kdeconnect.mpris_090f5e49b4e347129bbea7898b152392;kdeconnect.mpris_09432d365b604ecfb761642ce69243bc;kdeconnect.mpris_096f1b64d65c459db623fcea51178ec3;kdeconnect.mpris_0c18f53f1000483fb5d3339136c92526;kdeconnect.mpris_0cca9c3c2ce243fe83e52cfbbb82fe32;kdeconnect.mpris_0d5300f8e4004b34b87af9cd49e5225e;kdeconnect.mpris_0da81fbd5f254b77a37f0abbc9fdb6e8;kdeconnect.mpris_0e321ff1009e43ccadd945598433bbea;kdeconnect.mpris_0e9cea5175134cdc87b36d80bd490b8c;kdeconnect.mpris_0f2d6733554144bfbce66bed7b4823a9;kdeconnect.mpris_0fbc4565c67a4a72a65f41da4192e49e;kdeconnect.mpris_1021c5408d3c4f17ad811eaf90762907;kdeconnect.mpris_10768570dd304e6385085540bc1de670;kdeconnect.mpris_113f18869f3f46d994ffa2a5495d510f;kdeconnect.mpris_116c5cdd6eeb42e2b2c1d0d2523c4656;kdeconnect.mpris_11eb28f28505479ab817ba5a76a34b52;kdeconnect.mpris_12abeec0d52c4cc4bc10f6487aa15935;kdeconnect.mpris_12b2ad05142c4abdb0f393661062a379;kdeconnect.mpris_12ec6a96799740449050e6cd770bb2dc;kdeconnect.mpris_1426773ba4ce4ca288dac1c51cabe489;kdeconnect.mpris_1444d328c9fe45d783cbfcfd23db4428;kdeconnect.mpris_14588a1a17bc48caaf4b49e9b30366d0;kdeconnect.mpris_147523853dd14f1680ccb78446673c13;kdeconnect.mpris_14c07d63116941c68b601db568f59a48;kdeconnect.mpris_14ca19ccbed843cfb362dd78f785bbd0;kdeconnect.mpris_150df664929d4676a0d350b9e238ed7c;kdeconnect.mpris_152456f38eca438f868d0c33f08f45ae;kdeconnect.mpris_15c54d9da34b4d389ebab828386658a5;kdeconnect.mpris_15cfc8fa24ee4d9ab11b5a670b06462b;kdeconnect.mpris_162fb36783044db480a7db7727e934dc;kdeconnect.mpris_1723e1c9fe464ec2a0cc9d55c7a4a3d9;kdeconnect.mpris_174373612bd04de89f36fea95793641f;kdeconnect.mpris_17542d3600454cc9a7da802783956d86;kdeconnect.mpris_1830637216f54f12914003431969eea8;kdeconnect.mpris_187794469dd44303b855c7cfcc3391fd;kdeconnect.mpris_19ea28ab540846aaadfb578f93cc8624;kdeconnect.mpris_1a4faf86dc0744abbf8f77de70043b6f;kdeconnect.mpris_1ac0edce602142f5be3460c479bc1a8b;kdeconnect.mpris_1b809b7dc76244e0ab07f2debb4fb60b;kdeconnect.mpris_1c059c2716094313a3593946cc043140;kdeconnect.mpris_1c9a6493f9674fc985136eca8fbf5b1f;kdeconnect.mpris_1dce619b954445d2a30a23ec03aa3bb7;kdeconnect.mpris_1eda51f517cd4735bb576a1ce4300e79;kdeconnect.mpris_1f1d8337beda46a0834ad6708ec7f0e3;kdeconnect.mpris_208adb27bd234e0a9f6991a1ea248dc6;kdeconnect.mpris_210bfe281aea42958aab3d3a6e759186;kdeconnect.mpris_2166c24249a64c86892dbd1e49dc6d7e;kdeconnect.mpris_22aedb0eda524456ad35cce039811690;kdeconnect.mpris_22e1a923669b49f3a05e98d589cb6291;kdeconnect.mpris_2302119beb51421d98fb54691dc8b20f;kdeconnect.mpris_2375fef61c4d4ee986058b9f0412d05d;kdeconnect.mpris_240fdbcfcee84219b4ee1906367a3a98;kdeconnect.mpris_246c74ab4e244d6ab574dfef1d6bae0a;kdeconnect.mpris_24bf1776fbe8442dba48b6de47fae896;kdeconnect.mpris_24ece6f6f740476a98feaa46069986a6;kdeconnect.mpris_257520f3adc5494e92a10857b441d610;kdeconnect.mpris_25dce77a38774ddba9d97da59be05d4c;kdeconnect.mpris_25ff32db7ec74dabad13c14ce10d1d8a;kdeconnect.mpris_26e6483dccbd450f89769c802f8bbad6;kdeconnect.mpris_2728c2d6ae3f425c8c84b5f1d230b04f;kdeconnect.mpris_278cdeccc9704d869cefbf28b82f996e;kdeconnect.mpris_27de18e2ed974065bbf1274d2f25f42d;kdeconnect.mpris_27f893abb19844feb668a402f56dc6d3;kdeconnect.mpris_28c6fa8c02374f47847c09bef6745f7c;kdeconnect.mpris_2945bf8d583b4adf917e73a59af8127b;kdeconnect.mpris_2a472542dc1c4a6f97a06933648c9599;kdeconnect.mpris_2b2ead62e0424b9db859dbd73dcc6455;kdeconnect.mpris_2b626323bfee4f3eb707c7b62d957944;kdeconnect.mpris_2bb19118b77c4e1a92e6932f813f910f;kdeconnect.mpris_2c0579e4753c4f85a07ce7131d60ff32;kdeconnect.mpris_2c885ddd44e14ba584be1d30d3cde382;kdeconnect.mpris_2caa0ba672e544dab0b17db790315130;kdeconnect.mpris_2ceae222f1004f16b986b278e805d7ee;kdeconnect.mpris_2dc63f579ff543ef8e90467c4dd46f71;kdeconnect.mpris_2dce1fdfade54eb6bbf498b044850a77;kdeconnect.mpris_2ec11b03cf6c4cf185ddcdc605500414;kdeconnect.mpris_2ee7ea94a6194216844229c2535c3ab3;kdeconnect.mpris_2f6508260abb4aa5a1b663aef0653868;kdeconnect.mpris_2f742c60a27a4fa887619e7fbded57b1;kdeconnect.mpris_30dad2be5f8d4367bebba86beb642f78;kdeconnect.mpris_30e489340cca45e490f72a0811847796;kdeconnect.mpris_30f6cbc7d9234a53b59400575cfb5135;kdeconnect.mpris_31381682b91741b5bdca26b8fc08d5a5;kdeconnect.mpris_316ab56add1441d3bf3f5b55f9e9796d;kdeconnect.mpris_3255ccf9241e48d69a1fef4b0fd6bb4b;kdeconnect.mpris_3306ba772fac4213b9d9cf31f6d13293;kdeconnect.mpris_335a98e929ac499e8334e3182420ab01;kdeconnect.mpris_341e9bf9ec604b04a96dd406f4cb4156;kdeconnect.mpris_34f0d6d863f24799b54a25675d12ff06;kdeconnect.mpris_35f6246113b44a94b5f40fe43577184a;kdeconnect.mpris_361280d429604e25936f264dc11f21fc;kdeconnect.mpris_36350b0ca0754221bc168d443a0104ba;kdeconnect.mpris_3668ce57d7e0484a95766c12a9bcb31b;kdeconnect.mpris_37475e793cab45d6828d002ec4356f5d;kdeconnect.mpris_38911f321fd0440c80c1e017ede7ee27;kdeconnect.mpris_38b95a4cb980400b948d3d7a9bcf5e88;kdeconnect.mpris_38d5b5a3460b4c209da41b50a559f536;kdeconnect.mpris_38f11eb511f9425b8614128ee1706755;kdeconnect.mpris_39ada49436bc4d8780d5ce4e682e9c5c;kdeconnect.mpris_3b9136fc57174ccf8b454769031a11b1;kdeconnect.mpris_3bce6190a34b413984f53b1680db47b1;kdeconnect.mpris_3bf7a49b59834f9891493a789a0433cb;kdeconnect.mpris_3c515d8111624cd0b469669fd1988a6e;kdeconnect.mpris_3c9b1df118c3414ca8c56fe277ac0620;kdeconnect.mpris_3d9048040c7842f387ca8083ff0c7fb0;kdeconnect.mpris_3f9b01df4e9745f89ed534a6d3ae0b2a;kdeconnect.mpris_4064d6d393474402bc00f8edb1fabe78;kdeconnect.mpris_422ee7d320f84532986f69fe11a200b3;kdeconnect.mpris_426bd24cdbc8495da09e08f0b7f62458;kdeconnect.mpris_434093f18ff44b069ba548b68d4edaeb;kdeconnect.mpris_436a042327ae4a95b114f9c1703bea10;kdeconnect.mpris_43c539f2b30641c398a3ecf5dee29011;kdeconnect.mpris_4586ca5ae9154e33b93763ec6aba44ec;kdeconnect.mpris_45bf6e5b70724a8994bba924d20d6211;kdeconnect.mpris_45f484b0d3634386bd33c78455c14c15;kdeconnect.mpris_4627d22031d64e619fe2ba62550a83fa;kdeconnect.mpris_466ca966d38f42a0b0c4ee93705b6425;kdeconnect.mpris_46c433dbc55849518b15ba0bfb81a641;kdeconnect.mpris_47788dc9afdb484f9ef5cedfebfb6e39;kdeconnect.mpris_47828d750def42028a9e188ca4477b1f;kdeconnect.mpris_47bc0642e49342938fcaac482d93a398;kdeconnect.mpris_48058d1a9984488da56f3c9181dec5f6;kdeconnect.mpris_483bb3935d2c4c40af3c937def38f946;kdeconnect.mpris_4840303adf3340a7b62d7d40dbe35bb0;kdeconnect.mpris_484ffbe7ae8b4f5cb1c0a8c229c89e21;kdeconnect.mpris_48cc42fdfd174dadbf5bdce5b1958b0a;kdeconnect.mpris_48dc690f15974efa98fdcfea5c9d8491;kdeconnect.mpris_4919952c025544bbb41f9381df56d333;kdeconnect.mpris_49400413ac3749909eb5e4e5de573570;kdeconnect.mpris_498130708fa24f42b996a2dadb9311f3;kdeconnect.mpris_49fc83b3b99c4fdab91a2972d8e9247d;kdeconnect.mpris_4abc2920664e4148918aedbe1661ac4f;kdeconnect.mpris_4acd47b959aa427f8b099d1d8b4e8838;kdeconnect.mpris_4ad74f44c525414999bf6eb4cb50e267;kdeconnect.mpris_4b50846e17434b178528a4c626f59a01;kdeconnect.mpris_4bafd33073ad4f88a322a780a9da08c2;kdeconnect.mpris_4bdb70a84e17424b9b16a25a94755a55;kdeconnect.mpris_4d04ae41901f41058f676b09d787d565;kdeconnect.mpris_4d24eb629e9545609c4dc350d0ca80cc;kdeconnect.mpris_4db45d3f171640658381b5a2d21e13d9;kdeconnect.mpris_4e53de7664164c7c9bb33148edf8ad9f;kdeconnect.mpris_4e8b2f3751474a84a99eb689eb3fa8d2;kdeconnect.mpris_4f26afeda355428eb2d20a62e023c561;kdeconnect.mpris_4f326360b97c486da05de2d86f7dd3f0;kdeconnect.mpris_4fdcda2396f64510a16f71616bac15be;kdeconnect.mpris_5036df9646e24af5affcee97f0f0291d;kdeconnect.mpris_5048ecd96da9427896e0256636351d48;kdeconnect.mpris_50681c874d0f43e0927aa3c3ef62565a;kdeconnect.mpris_507583075d524df098b3b29c14b578ce;kdeconnect.mpris_50c7bea7ef674ce797a4a40c6708e01a;kdeconnect.mpris_52cf4070620c4e4fb881611e65c09e1f;kdeconnect.mpris_53415c8db587404b98e0f6f71b429860;kdeconnect.mpris_537174a49f064f83b5d338c7ed938382;kdeconnect.mpris_53e820d4abda45b6bab77bf495676965;kdeconnect.mpris_5428ff92b820440586d494dbb8a5dcd9;kdeconnect.mpris_546366d238bd4c5bae974dc0c17f2abe;kdeconnect.mpris_54977fd462534ecba8cf1f7bb91e3a72;kdeconnect.mpris_54ec7711aa814f6889b3712fac31ab52;kdeconnect.mpris_55a1ded41a8949f1a5a4e11f1052c837;kdeconnect.mpris_566af26f19d84d1b8a305a89c4618896;kdeconnect.mpris_57555fc4953b48b4a7ddca2b10dbb2af;kdeconnect.mpris_57665a7231f84c3dbd0fb0b55b9edd0d;kdeconnect.mpris_5787018dd8054b0bac762fc77bcd0d91;kdeconnect.mpris_579e02aebd5f4dad8bd8e62564cf732d;kdeconnect.mpris_57cddb53a864410ebd461ab6a5c71bed;kdeconnect.mpris_585d43d496894159bc7edfa14e5b99d5;kdeconnect.mpris_587da98d31934b389184d7fe5d50155d;kdeconnect.mpris_59372f530950452bb783617ccd2f75a6;kdeconnect.mpris_59c80f5968464f518e47760df434cc25;kdeconnect.mpris_5aada1371d6e44d2bde0642949988219;kdeconnect.mpris_5b64745e22ce4d83843bd6c6f708e695;kdeconnect.mpris_5c0e917cc1f2457f97bb8105fca97d0f;kdeconnect.mpris_5d51267a1c34440e92d6454778199bcd;kdeconnect.mpris_5ddf8e047a3842ae8b85979889f7fc9e;kdeconnect.mpris_5eb09e1564dc4e628ef97e0f291e71db;kdeconnect.mpris_5f16f00201f54ad9bf5c597afb44aa88;kdeconnect.mpris_5f2c39699275418286bb32f5aafd11a8;kdeconnect.mpris_60ae0c97722441cfa28199df5ec3342d;kdeconnect.mpris_60e91709200f4690b67f6a7b2d119bb3;kdeconnect.mpris_613e02a0b0ed4580ac1bade5a5264835;kdeconnect.mpris_61b552f40b474b99b3917f0a008f4c08;kdeconnect.mpris_6205217037964eefaf746abce7fc2cc3;kdeconnect.mpris_6212873a86f242a093913f621f654032;kdeconnect.mpris_62a279e2c7084cd594a661abae9493df;kdeconnect.mpris_62ad4d2e0d16471490055a7651469a7b;kdeconnect.mpris_6334bc24e4e44e29b3a8e099ef2aa049;kdeconnect.mpris_638ecbffa3ca4d1f94298abdf94002ad;kdeconnect.mpris_63de133857ab4f809df1278e67d9b150;kdeconnect.mpris_63f7d732874646acafee823909038f77;kdeconnect.mpris_63f9369d71f24851a2db54917bba9ffa;kdeconnect.mpris_64227b2082bf46aeb9e6c220e455c6bc;kdeconnect.mpris_643cb48d0e18495aa75fdebc0fd336c0;kdeconnect.mpris_64c0acc3d4cb45ab822c9d72389f1caa;kdeconnect.mpris_64c97cfe69874f5a9a29377eb2da97d9;kdeconnect.mpris_64cb4a2c122645318943c817fdb1283c;kdeconnect.mpris_65890e2078fa4abfb592d8b8580928dd;kdeconnect.mpris_65a81bcfc8fa4b80beb77e50fb41732f;kdeconnect.mpris_65bf626f6d5a47caa26e57a5ad20ed88;kdeconnect.mpris_6617e9815c08405592f3f6fca26d29d6;kdeconnect.mpris_662b99b35d584e43908343c4def9b719;kdeconnect.mpris_6648cfcfb775415498dda41902ce7d22;kdeconnect.mpris_67de1c6935424dfc81da397b2cc39e1a;kdeconnect.mpris_684fd830ba5c44d48c9de37d1bba7806;kdeconnect.mpris_685b4acdca004c308745a01f974da68c;kdeconnect.mpris_687855b4fbb54d5f899f28388ef356a0;kdeconnect.mpris_699b66cbd4ae4d36ac7f51e1821e407d;kdeconnect.mpris_69d4d5cf57d24183b0d8c208c165d0e4;kdeconnect.mpris_69e69f7bfe044a04a2547139add619d1;kdeconnect.mpris_6aa7dc622729436ba7a3f190287c0147;kdeconnect.mpris_6aac52fd3eff4a889ced20f9c1d554fb;kdeconnect.mpris_6c12e7db6de24560978e5ace0b16ba33;kdeconnect.mpris_6c41ad44efe044129812b760832eb27d;kdeconnect.mpris_6c49708aaa30421cadb90234ec49a1de;kdeconnect.mpris_6d05e904ef734090af4d76f8ace15213;kdeconnect.mpris_6d6ec5ba2a634026992b65672c0a886f;kdeconnect.mpris_6e02e219d44f4231a49de4d507411c39;kdeconnect.mpris_6e2786819961440ea110298b03220574;kdeconnect.mpris_6ec6b5d2e2cd43b5ab315eaa79ae807b;kdeconnect.mpris_6eee1bd31274466b9289f57bce820e04;kdeconnect.mpris_70b2f820ad794686ab05236bbbdf3d25;kdeconnect.mpris_712b316f5544402cbe809ec9edfbfefa;kdeconnect.mpris_717130a08cbf4e4ca5e30db3b13b787d;kdeconnect.mpris_71e314e22c0b4686875de12f1fd8f101;kdeconnect.mpris_7226f251d23a4669acf65f4a2e26e21c;kdeconnect.mpris_725f78756bdc4420890e50272d0511ce;kdeconnect.mpris_7268d39cd9ba44e689aace75e9b96c21;kdeconnect.mpris_7307e5d49ceb46da85ac00e889004b8f;kdeconnect.mpris_7448c6f44a1c480b8a382902beba30f2;kdeconnect.mpris_7795390222a74916b6945f11444aade0;kdeconnect.mpris_783d243243a14511b55182456fc5f0b8;kdeconnect.mpris_785b9e44cebf4065abaf49a830eb8fd2;kdeconnect.mpris_787c822d72bd42d39fdc3f610c38b7b1;kdeconnect.mpris_78e84c010fe1464d9bced5452b561b95;kdeconnect.mpris_796167b04eab4af9ad941553db3ca815;kdeconnect.mpris_7a4ba4e8be834c3f80e6958e9760bf0b;kdeconnect.mpris_7a5405105559453e8ed0f27e592e5e66;kdeconnect.mpris_7b47bbc3a804479393a14059a271dd81;kdeconnect.mpris_7b9e8eb3565049829d8125eacd00f7b7;kdeconnect.mpris_7c4c6c8f499a467bb19398f263460c86;kdeconnect.mpris_7c5035656fc44492a756d5b9b2443f88;kdeconnect.mpris_7c667ff50af241ee9a0c8244868c9f80;kdeconnect.mpris_7d48608fb9b1461fb34645eefdb894d7;kdeconnect.mpris_7d9494153df84d55a289f8066cbd240f;kdeconnect.mpris_7db0e0d732b24c2b880603fb666e7208;kdeconnect.mpris_7e47651b9ba44ed9839bb6b1b28434ec;kdeconnect.mpris_7f659535fe7848a4b69e75a93ab4e02b;kdeconnect.mpris_807af1e41e2744a8a99c20513c67259e;kdeconnect.mpris_80ac2e71e38c444083b660236130fb85;kdeconnect.mpris_81a8352f68c041bdaa13b167340cdeee;kdeconnect.mpris_825865fbf87e4dc5b9c31ef77184d19a;kdeconnect.mpris_8290158cd8834c43bf4bc393b3cd79e7;kdeconnect.mpris_832bd3a67e1f4d7f9f9a7c38b6731f6a;kdeconnect.mpris_8437a71b9fe34514bf6b122deb729875;kdeconnect.mpris_8450361d9d8a43ebb12526b206768b6b;kdeconnect.mpris_84599b96a24a43d7a863905dcebefb62;kdeconnect.mpris_848fbeed1080473d85677e850476805f;kdeconnect.mpris_84dc3b35e71b4b4d9577842c0639c94b;kdeconnect.mpris_84f61744e6654854b7321af17968b694;kdeconnect.mpris_86288405f53f4039a85ca4436ab2359d;kdeconnect.mpris_8637d4c7f7684779bc423206e8c84cc9;kdeconnect.mpris_86b2420c68964bc48c76ff30410a3928;kdeconnect.mpris_86f28f932bc041ee9186f95f4516d4ca;kdeconnect.mpris_876fd2e310fb4e1a8a9b8196d682433c;kdeconnect.mpris_877f5f940c04418588843ece99693f3f;kdeconnect.mpris_88b627447ed540f6806e21d1c24c4296;kdeconnect.mpris_88be063c081144da8a1c1959c28deb76;kdeconnect.mpris_89a2f799fce04bdc9753428bef275b48;kdeconnect.mpris_89b41e35b641421592b6c9510c509c24;kdeconnect.mpris_8a24d9070a654d87bc5755341f373b41;kdeconnect.mpris_8b00fb889a4d46b2bceb6167eb04a082;kdeconnect.mpris_8b465dd996354554a95bea082e831f24;kdeconnect.mpris_8b93198c72d246e2b6c9d9ae34508d75;kdeconnect.mpris_8bc1bc1e14af4738af45e43343fb1564;kdeconnect.mpris_8c0868c080ad4796814e3dae2a3ad63c;kdeconnect.mpris_8c0d2592bc3149fcaa814f6ea7f08e06;kdeconnect.mpris_8c0e02b15c4646d8847b5785469f03ed;kdeconnect.mpris_8c84314c30bc487084c32f25d9285ccc;kdeconnect.mpris_8cdc668f67ee4326b4051eeea0c12abc;kdeconnect.mpris_8d02ac8a05f242a891e52fa02c31f503;kdeconnect.mpris_8e4907867d7346e59564c7f8d0e03abc;kdeconnect.mpris_8ee46fd80cd14d7bb59e17b54af44dd8;kdeconnect.mpris_8f067906fc9e4e6aac61adae9eeb56f2;kdeconnect.mpris_901923a050ee460d9c1844450688ed02;kdeconnect.mpris_902bb5a08f0c478f86a7e8c132b8eae1;kdeconnect.mpris_90742d7704f44877933e0e630ceeab1f;kdeconnect.mpris_90812745d6f342809a905bb1ab3bb1dc;kdeconnect.mpris_90953ade0a2c46189839be83f968f125;kdeconnect.mpris_90bc29f2dcae41e5aece92597959e9e6;kdeconnect.mpris_9113c2994e9143f3aca7eb0961360c1f;kdeconnect.mpris_919ff63364cb4d81a2b68476983ef967;kdeconnect.mpris_91d9656c40394f7eb34cde3202b14f9c;kdeconnect.mpris_931ae39a4bab4f98b6a669d88ff4aa87;kdeconnect.mpris_9580e6b0fca944af9759a02afbd1021f;kdeconnect.mpris_963b528075e4478795d997a2d5924db8;kdeconnect.mpris_96609193d51d4a68938747993d9bb646;kdeconnect.mpris_974b6ac9a2c740f2ad0cee9fb2caaddf;kdeconnect.mpris_97dda77493464fd18aa67cb37ae184d2;kdeconnect.mpris_980a3b61ed7f45bb9cc0b0e69c400e46;kdeconnect.mpris_98312e1e21924dc2b6a331441a94f09a;kdeconnect.mpris_9847740b3b4846a68a14c40cf7871f25;kdeconnect.mpris_9897ad12745d476cab3cf622f982a5fb;kdeconnect.mpris_98d89e2dc3a2435eaa3c169ceed5b9ad;kdeconnect.mpris_98e55e4a72814563871d32186272693f;kdeconnect.mpris_9939a5deec0c44228388da881899927c;kdeconnect.mpris_99d0c147cbc44602abaf79bf6f496bf4;kdeconnect.mpris_9a2add4662bd4a3ba619f1c2a9ea5346;kdeconnect.mpris_9b44f1d8d2df4edfb34c6282f94396fd;kdeconnect.mpris_9b72bddfab3a4426841ec53756226feb;kdeconnect.mpris_9b991f8193ba42afb116eb77b21ed719;kdeconnect.mpris_9bf3138f03b04fcaae8169da8f8f50e1;kdeconnect.mpris_9d79ad3125924391a779de0a3e1bc0f1;kdeconnect.mpris_9d8483b978ed43c2a9bce2f6e91fec1f;kdeconnect.mpris_9dd64f7edb274b2d8ceaea99e01f1b6c;kdeconnect.mpris_9e0c2a5d83194aaa8445df8e5aa27c02;kdeconnect.mpris_9ed384e339a44e95ad1eaf294e7c135f;kdeconnect.mpris_9fa522654a3744218314ddae7fcad05a;kdeconnect.mpris_a19a5a54f9a6459c9502fed37928dc16;kdeconnect.mpris_a1b35c1d0ddc40fc91354e6a8139f603;kdeconnect.mpris_a23cc1a90e73488687ab0fbe547b7a46;kdeconnect.mpris_a24c7102b04b4653af9b0a5d1aa79aa0;kdeconnect.mpris_a2df9d88293e477e8fd2fc4a0e5c114d;kdeconnect.mpris_a4513862e83941fa94602173731954f6;kdeconnect.mpris_a4ce2b82c45f4e1f8189538ec785b776;kdeconnect.mpris_a500b20e465c45ef91e3f00483aa20cc;kdeconnect.mpris_a53a75e66fe5494ebc9838046ed634fe;kdeconnect.mpris_a57549e752a44b008e2e3620f2e7a03b;kdeconnect.mpris_a5ad5072779a4a5c81f46b0c2d902f46;kdeconnect.mpris_a64ac96449234abba0ca01eeb20ef3ec;kdeconnect.mpris_a666280ff320413eb80855ffb7b3886e;kdeconnect.mpris_a6cbcdc52083469f99b9f628e3280e56;kdeconnect.mpris_a805b0d289c54a4b9b247d4df77ca692;kdeconnect.mpris_a862ae6606364bb4add1a73edb040047;kdeconnect.mpris_a8bd1945662843c1904500f2054f14ab;kdeconnect.mpris_a915b993da66495aaa9856d3cbec270a;kdeconnect.mpris_a951b6af671c490694588c6f8d1572cb;kdeconnect.mpris_a99c7806d00940b59540ddf568a8d500;kdeconnect.mpris_aa0ad0304a7b477cb4534b5311151fd8;kdeconnect.mpris_aa81c58144a345a7bec281a51c382d85;kdeconnect.mpris_aa99375e9f934098b2cb094ff4874125;kdeconnect.mpris_ab5f47dccda547f38e947402192b608c;kdeconnect.mpris_abb216c8ad22421eab001e876a93a714;kdeconnect.mpris_ac673004be4047f4aa0583b110b5e603;kdeconnect.mpris_ad7b42e218d24544a94878e1b206cb4e;kdeconnect.mpris_ad7c2df48e974dda88c8b33bf2dcc9d5;kdeconnect.mpris_adb790442d04413da7308ce8e6bc715f;kdeconnect.mpris_ae62c498ca834cc19479e70d97119091;kdeconnect.mpris_ae7bb84efb4448bbbfa90ca15e3315d0;kdeconnect.mpris_aed72469830242bfb2d75d7d01b1122c;kdeconnect.mpris_b0861e0c687a410b8e513bb1bbedff0d;kdeconnect.mpris_b0debbcafa044bc6b32cf804b31286cd;kdeconnect.mpris_b1d57a179d2743e48e4f6efe3063c8fc;kdeconnect.mpris_b25997be74a745af95f96742290854de;kdeconnect.mpris_b26ac37e8b3f4f61bae5cbf6bac775ff;kdeconnect.mpris_b38d6f6e5daa4ab9bb74990dbb288b21;kdeconnect.mpris_b3d2e65a28d84fc9942e3b0aac893ef4;kdeconnect.mpris_b4587b900c1b4d31bee6531597ed6bb7;kdeconnect.mpris_b4be4c77babf4bd7ae147d099a75c71c;kdeconnect.mpris_b52d132833724b30b30b50bedd0e3319;kdeconnect.mpris_b75c66487c6148ceb4fde763292e728b;kdeconnect.mpris_b78fb1fee7784a0ba39b350deb062f4d;kdeconnect.mpris_b7aea6b5691b4cc8905df4f857dd12f5;kdeconnect.mpris_b7ff0a9a92aa49cf8143e14da24e2de6;kdeconnect.mpris_b820b63110bc4113b68387ec7b214952;kdeconnect.mpris_b88626a7b93143c3ac1174d59a6e5854;kdeconnect.mpris_b894f3b11d8e45f8b31071520ff2b8e5;kdeconnect.mpris_b8a7b7f52d1f4b01a28cfe08c5608f6a;kdeconnect.mpris_b8bf34936a944cb1b1ff8a27c5da0119;kdeconnect.mpris_b8bf9c02414140dbaa12fb489bb41840;kdeconnect.mpris_b8f989b780784ddc9f817600771125c5;kdeconnect.mpris_b9113f9800924ff1af5e2e158c57b57c;kdeconnect.mpris_b930c96d53a845568639212bcc3706c8;kdeconnect.mpris_ba316ec26064493190b229dcd292fc2f;kdeconnect.mpris_ba54698fbb6d4f9681177649ec7462ec;kdeconnect.mpris_bac5454e98504abbadcb0969a7e8fd49;kdeconnect.mpris_bc5ed8b462c0449b928998ea97031bd6;kdeconnect.mpris_bcc5c5aaf46d4952a1acb1560084a9b0;kdeconnect.mpris_bd215635de864e85a4b6532a27bb3087;kdeconnect.mpris_bd3c574c51b441e182d946314332ad42;kdeconnect.mpris_bdaa8fdadd554f308cfd2c7f7ead50cf;kdeconnect.mpris_bdc8c1e5952d485eb0e4f983ef90c216;kdeconnect.mpris_bdf5c79b7991483a9d158add70d38aad;kdeconnect.mpris_be7e8d7fd9624cb08a094d40a31b7ab0;kdeconnect.mpris_bf70f18b8b11486d8970940b4862cf26;kdeconnect.mpris_bfd7c737a5b44d628cb1d63a25a0cb87;kdeconnect.mpris_c14b697b8c214cc28d9b0568ca477b27;kdeconnect.mpris_c16abd4caa1d4dec8a777e5d400a461f;kdeconnect.mpris_c16ea32c44b340c5a7da95266f6414a0;kdeconnect.mpris_c1b08388c08c49188e1e5f10632c7fc2;kdeconnect.mpris_c24c4e4b8d6241eeb16989008cd51883;kdeconnect.mpris_c2548efea7204c4882164d2151d7f243;kdeconnect.mpris_c34ebea33cfc4481a991c9b8edf7af68;kdeconnect.mpris_c3880ddd95df4cbfaf5e3899a611422d;kdeconnect.mpris_c3afc67346cc46f48fe87f8d9feac006;kdeconnect.mpris_c3ff89486c3a483db066dbe328346732;kdeconnect.mpris_c41332b896df47169176e9d81e78fd45;kdeconnect.mpris_c48eee61981648df8ff8be0b95cad4b2;kdeconnect.mpris_c4993aa0a45045d7954953e2553a8c7a;kdeconnect.mpris_c49a5fd27c2a4a9cb29437dec12edf17;kdeconnect.mpris_c4a251b1e82f4bc7925435900ba9686a;kdeconnect.mpris_c4b4e55865814d16bb27bf220b12d009;kdeconnect.mpris_c50eab4f528742c0b7791d880a475db0;kdeconnect.mpris_c563fc4c68404071bfca61bdd73c0973;kdeconnect.mpris_c62a5e9a05b74c9888ff1240a8f27ccf;kdeconnect.mpris_c62f4e8955ca4f9eb25b55e1c83a8ca2;kdeconnect.mpris_c64b203014f54206825fc2dcbb00d1ad;kdeconnect.mpris_c690cdaad49146ed842aa82bd626d5fa;kdeconnect.mpris_c699fc43558c41fd8d7bcd0f52f1d58f;kdeconnect.mpris_c745abad49d34d0795a79b0492d5c526;kdeconnect.mpris_c758ad0e8f3c4192871723316ce1793b;kdeconnect.mpris_c7735ab116f24b12ab398d7c3b7294d5;kdeconnect.mpris_c773ee74caa84b5d9be01d4fbc467950;kdeconnect.mpris_c89f7045474b4976947491008b44c53c;kdeconnect.mpris_ca07ac986a5b4eb2875527686702cfec;kdeconnect.mpris_ca6a1abf57de4e78bf4881a2a864f165;kdeconnect.mpris_cabe7b8ee2cd458f97663d36ff9db29a;kdeconnect.mpris_cb539cb72b1c4b2fb30c44e4025f5669;kdeconnect.mpris_cb6caaedc53e46c38e2132e263ed27f3;kdeconnect.mpris_cb98e87e8a58421e8bf2d190a130fec3;kdeconnect.mpris_cbad82dc058140f19f6c89ceeb29a46a;kdeconnect.mpris_cbd8da7397654cb7988f760df5de4123;kdeconnect.mpris_cd8f78a8380942f082db7510082dd96c;kdeconnect.mpris_ce4bc4f335fd4e90a0a49a157983566c;kdeconnect.mpris_ce673dbd07f84cb2916db7935229d510;kdeconnect.mpris_cf487f53b63d40ba87b7cab4db0b4312;kdeconnect.mpris_cfa8be708ee14da7bd49c81f816ceca2;kdeconnect.mpris_d016951208b2458d85746ef517e9212d;kdeconnect.mpris_d0880e34cc0e4de6a381746795097355;kdeconnect.mpris_d13d8c1c9f41488d90d86740c514c57f;kdeconnect.mpris_d239d1f03509437285253d8e0dd43da1;kdeconnect.mpris_d25e757f81374f3c8f5d4c9f2096a2bf;kdeconnect.mpris_d2aec961f33e4c54a47e502ae4c20a05;kdeconnect.mpris_d3525d9f55d64616bf573bc341dd4484;kdeconnect.mpris_d3ca607c58b449f5ac1907c4719bc425;kdeconnect.mpris_d3df4fb1b68e48b7a17f74145675034d;kdeconnect.mpris_d4485faa8a984f90bc7db9aaf0f68270;kdeconnect.mpris_d46cbdfeceb54f998dfa8fe11650fb88;kdeconnect.mpris_d49202c0c41f46fe981130791d3b4b98;kdeconnect.mpris_d62a04c889e54cef9b8907fd4978019f;kdeconnect.mpris_d71688437fc34193b006ecd9e5713a22;kdeconnect.mpris_d77cf0e60fe54879b2c760926e6ddf59;kdeconnect.mpris_d7890a21eceb4461bde8433a28f365cc;kdeconnect.mpris_d7e2ee038b0047dca828590f478c79ec;kdeconnect.mpris_d8c7284c40ea466ba28697adc1b7a587;kdeconnect.mpris_d8c7d0e25363454099fd1dccca6f144f;kdeconnect.mpris_d8d503767d5f40eaa27ee75142a3b998;kdeconnect.mpris_dae74bcde24749abb94a5f5a47a6dce9;kdeconnect.mpris_db647e7a1e3e49a7b09165bd42fd73e7;kdeconnect.mpris_dd06a81d321f4b4dbc009b10e547583b;kdeconnect.mpris_ddb0be560eaa4042a1f23fa5ac733ad1;kdeconnect.mpris_ddf0f4a1dbfd4a0692ffdd14fea206c3;kdeconnect.mpris_de42f6859fc446868db1d3ee2e202eec;kdeconnect.mpris_de455aa400694170a650e508d2b52f91;kdeconnect.mpris_dec530f8c41b44b1a8c5a40cb0a14974;kdeconnect.mpris_def67fdc4c414e0fb44d42eb50a5337a;kdeconnect.mpris_defd82c7c0cb45b2829c101cb86dad3b;kdeconnect.mpris_df2b8497d69246cf8d4264f41fb303cf;kdeconnect.mpris_df4e404366fb4537bad738d320b4ed72;kdeconnect.mpris_dfac6760c49e4f6f970ef53b76092409;kdeconnect.mpris_e067a3db258e45d9af3098a18af4592d;kdeconnect.mpris_e1e5347c162d472aac5e36d95f5bda41;kdeconnect.mpris_e222963ca5aa41fd83a62256c11c01b4;kdeconnect.mpris_e251be24b51f4c8d9dbab3306bbbd867;kdeconnect.mpris_e2613b7b0b2d4c4ea8dfcd47f0b4bd9f;kdeconnect.mpris_e543d470ce0b40799bb88dc45a8ce7c3;kdeconnect.mpris_e55c9028b2704083bcf2d9d81716efab;kdeconnect.mpris_e5f34384d92146718b8682b80f924e6d;kdeconnect.mpris_e5f609e7dc764fc6b785be436f2014fc;kdeconnect.mpris_e76f08757c364055a5252deee864cc67;kdeconnect.mpris_e7a76dd7046e4904b727ccce60d06f1f;kdeconnect.mpris_ea8feaabaf5d42368a6d251c0c557a3e;kdeconnect.mpris_eb3eba7b87e64800b979facb90bddd23;kdeconnect.mpris_eb5ef0dfe3bf444ba97615855464f7ac;kdeconnect.mpris_ed27fff128ef482bb7f8120c04e4b4df;kdeconnect.mpris_edec797ba5244d5cb55874d519aa6bf4;kdeconnect.mpris_ee348b2643ba4530929da7a3d57818ed;kdeconnect.mpris_eeb4a345e46244ccb0e08c28940a4a47;kdeconnect.mpris_eeb799a6203d4228a41f82c1c3980994;kdeconnect.mpris_ef9216ed7b284f2fb082f0871d27274a;kdeconnect.mpris_efaf8d054535473480122ce4777c4a35;kdeconnect.mpris_f0056d2e468c4a99af4dbe6b53d916bf;kdeconnect.mpris_f1248d8b04fd4691839c6ad34d053143;kdeconnect.mpris_f1cb05abce6e4bcba21e3dbfa0dcf1d7;kdeconnect.mpris_f20ebbf539d940a4ac03aa5dcb4e2e70;kdeconnect.mpris_f2236a3032db443a87af5b1196941d08;kdeconnect.mpris_f2413808e04b4e4b9fdf72eedc4cec32;kdeconnect.mpris_f2fba38e2d8647f2a7f8234f342d6d9d;kdeconnect.mpris_f2ff7ecfaf8f4acda9cbf4bc480c8c41;kdeconnect.mpris_f318038135d5448a844692e10390090b;kdeconnect.mpris_f36611b9040a402eaaf3ed3804ad6e82;kdeconnect.mpris_f3f68a787adb40f2ac2647514b3788e9;kdeconnect.mpris_f477b5529e93495ca34a701f3182605f;kdeconnect.mpris_f49612218a6549f598f4c95b18f55991;kdeconnect.mpris_f5282b45c7df4bcca3f08a735353cf1b;kdeconnect.mpris_f56a970b86984ce1ad8d1fb728ba35ec;kdeconnect.mpris_f58a0ebaf8714bec92765ccdabd4597b;kdeconnect.mpris_f61904e66082448e9a16cef155801842;kdeconnect.mpris_f7026badb227432fae98e2c53d3f25ab;kdeconnect.mpris_f714780930874e7da15c3b23534f6ead;kdeconnect.mpris_f77364a152634967b709667a42b66e8a;kdeconnect.mpris_f7918ae07e0243b091d4d5cb571651c5;kdeconnect.mpris_f7bbb3c4f8fd452ab37ff7efeb6895a7;kdeconnect.mpris_f853d47661254113a6b0f08bc7d81583;kdeconnect.mpris_f8bcba3d217642e6b146874131d74c50;kdeconnect.mpris_f916f19801ad4b73985940bccce7ec9c;kdeconnect.mpris_fa341e51536647e4a564d3ac99a566e3;kdeconnect.mpris_faa7b657ba7b4a68b9d5e930019ef3e4;kdeconnect.mpris_fb58ce24d0324098a11cbeb486336df2;kdeconnect.mpris_fbd92c74ada04db08aeea4463fa37c52;kdeconnect.mpris_fcf11cebd21c41998b972bc4c706bac4;kdeconnect.mpris_fd08104d6eaa41888a4838149962d438;kdeconnect.mpris_fd253486107849b784878faf49cb466b;kdeconnect.mpris_fe226b52685747e482c99215037180a2;kdeconnect.mpris_fe8d0d840f5b4737b599a2ba73146861;kdeconnect.mpris_ff7c22593fe5414597d2e32e417e5073;kdeconnect.mpris_ff95c40b839b4385adcaad905caed28a;kdeconnect.mpris_ffaf080fa72547f380f401a518934ae4;kdeconnect.mpris_ffe83dfd19e842eb9198631a133b910f;plasma-browser-integration;vlc"/>
+      <property name="blacklisted-players" type="string" value="vlc"/>
+      <property name="volume-step" type="int" value="2"/>
+      <property name="enable-wnck" type="bool" value="false"/>
+      <property name="enable-multimedia-keys" type="bool" value="false"/>
+      <property name="enable-mpris" type="bool" value="false"/>
+    </property>
+    <property name="plugin-8" type="string" value="whiskermenu"/>
+    <property name="plugin-1" type="string" value="showdesktop"/>
+    <property name="plugin-10" type="string" value="genmon"/>
+    <property name="plugin-11" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="timezone" type="string" value="Canada/Eastern"/>
+    </property>
+    <property name="plugin-12" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-14" type="string" value="xfce4-sensors-plugin"/>
+    <property name="plugin-16" type="string" value="weather">
+      <property name="msl" type="int" value="350"/>
+      <property name="timezone" type="string" value="America/Toronto"/>
+      <property name="offset" type="string" value="-04:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="0"/>
+        <property name="pressure" type="int" value="0"/>
+        <property name="windspeed" type="int" value="0"/>
+        <property name="precipitation" type="int" value="0"/>
+        <property name="altitude" type="int" value="0"/>
+        <property name="apparent-temperature" type="int" value="1"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="location" type="empty">
+        <property name="name" type="string" value="Mitchell, Canada"/>
+        <property name="latitude" type="string" value="43.506699"/>
+        <property name="longitude" type="string" value="-81.158203"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="docklike"/>
+    <property name="plugin-3" type="string" value="pager">
+      <property name="rows" type="uint" value="4"/>
+      <property name="miniature-view" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="configver" type="int" value="2"/>
+</channel>

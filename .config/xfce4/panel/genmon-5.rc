@@ -1,0 +1,6 @@
+Command=/home/jake/scripts/prices/ltc-price.sh
+UseLabel=1
+Text=LTC\ 
+UpdatePeriod=30000
+Font=DejaVu Sans Mono Bold 12
+
