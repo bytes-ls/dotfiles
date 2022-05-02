@@ -12,10 +12,11 @@ set smartcase
 set noswapfile
 set incsearch
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('/home/jake/.vim/plugged')
 
 Plug 'williamboman/nvim-lsp-installer'
 Plug 'morhetz/gruvbox'
+Plug 'joshdick/onedark.vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
@@ -44,7 +45,7 @@ au BufNewFile,BufRead *.py
     \ fileformat=unix
 set number
 set scrolloff=8
-colorscheme gruvbox
+colorscheme onedark
 set background=dark
 
 set completeopt=menu,menuone,noselect
