@@ -12,7 +12,6 @@ alias pi="sh /home/jake/scripts/connectpi.sh"
 alias roompi="ssh jake@roompi"
 alias update="sh /home/jake/pi/backups/scripts_and_tuts/pacman_sync.sh"
 alias iptv="sh /home/jake/scripts/iptv_get.sh"
-alias tmux="TERM=screen-256color-bce tmux"
 #alias yay="yay --nocleanmenu --nodiffmenu"
 alias vim="nvim"
 alias df='git --git-dir=/mnt/hdd/.git-repos/dotfiles --work-tree=$HOME'
