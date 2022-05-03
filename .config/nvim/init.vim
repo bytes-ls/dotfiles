@@ -24,11 +24,27 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 
+Plug 'habamax/vim-godot'
+
 " For vsnip users.
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 
+" nvim-tree
+Plug 'kyazdani42/nvim-web-devicons' " for file icons
+Plug 'kyazdani42/nvim-tree.lua'
+
+" Git log viewer
+Plug 'tpope/vim-fugitive'
+Plug 'junegunn/gv.vim'
+
 call plug#end()
+
+" nvim-tree
+nnoremap <C-n> :NvimTreeToggle<CR>
+nnoremap <leader>r :NvimTreeRefresh<CR>
+nnoremap <leader>n :NvimTreeFindFile<CR>
+
 
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python' shellescape(@%, 1)<CR>
@@ -50,7 +66,22 @@ set background=dark
 
 set completeopt=menu,menuone,noselect
 
+
 lua <<EOF
+
+require('nvim-tree').setup {}
+
+require("nvim-lsp-installer").setup({
+    --ensure_installed = { "rust_analyzer", "sumneko_lua" }, -- ensure these servers are always installed
+    automatic_installation = true, -- automatically detect which servers to install (based on which servers are set up via lspconfig)
+    ui = {
+        icons = {
+            server_installed = "✓",
+            server_pending = "➜",
+            server_uninstalled = "✗"
+        }
+    }
+})
 
 -- Setup nvim-cmp.
 
@@ -145,5 +176,16 @@ cmp.setup.cmdline(':', {
       { name = 'cmdline' }
     })
 })
+
+local servers = {'gopls','rust_analyzer', 'jedi_language_server', 'vimls', 'pyright', 'tsserver' }
+for _, lsp in pairs(servers) do
+  require('lspconfig')[lsp].setup {
+    on_attach = on_attach,
+    flags = {
+      -- This will be the default in neovim 0.7+
+      debounce_text_changes = 150,
+    }
+  }
+end
 
 EOF
